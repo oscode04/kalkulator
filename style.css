@@ -1,0 +1,120 @@
+body {
+  background-color: #181a28;
+  overflow: hidden;
+}
+
+.base {
+  margin-top: 20px;
+}
+
+.frame {
+  width: 370px;
+  height: 460px;
+  background: linear-gradient(
+    138.53deg,
+    rgba(238, 238, 238, 0.6) 4.09%,
+    rgba(238, 238, 238, 0.3) 95.12%
+  );
+  border-radius: 10px;
+}
+
+.display > .screen {
+  margin-top: 20px;
+  width: 340px;
+  height: 130px;
+  padding-right: 10px;
+  background-color: #262a44;
+  border-radius: 10px;
+}
+
+.print-number {
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  font-size: 20px;
+  background-color: rgba(238, 238, 238, 0);
+  color: #fff;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.input-number {
+  width: 350px;
+  height: 430px;
+}
+
+/* .input-row-1 {
+  width: 100%;
+} */
+
+.btn-number > button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 75px;
+  background-color: #1d2635;
+  border-radius: 10px;
+  /* box-shadow: 6px 6px 10px #e2e2e2, -6px -6px 10px #283747; */
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  /* margin-bottom: 10px;
+  margin-right: 10px; */
+}
+
+.btn-equal > button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 160px;
+  background-color: #1d2635;
+  border-radius: 10px;
+  /* box-shadow: 6px 6px 10px #e2e2e2, -6px -6px 10px #283747; */
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  /* margin-bottom: 10px;
+  margin-right: 10px; */
+}
+
+.btn-clear > button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 160px;
+  background-color: #1d2635;
+  border-radius: 10px;
+  /* box-shadow: 6px 6px 10px #e2e2e2, -6px -6px 10px #283747; */
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  /* margin-bottom: 10px;
+  margin-right: 10px; */
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  /* .display > .screen {
+    margin-top: 20px;
+    width: 340px;
+    height: 130px;
+    padding-right: 10px;
+    background-color: #262a44;
+    border-radius: 10px;
+  } */
+}
