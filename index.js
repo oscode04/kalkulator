@@ -1,6 +1,7 @@
 let inputNum = 0;
 let numPrint = 0;
 let tampungNilai = "";
+let hasilAkhir = "";
 let printResult = document.getElementById("print-number");
 
 function addNumber(input) {
@@ -42,11 +43,10 @@ function addNumber(input) {
     if (isNaN(tampungNilai.charAt(tampungNilai.length - 1))) {
       alert("Input terakhir harus angka!!!");
     } else {
-      tampungNilai = eval(tampungNilai);
-      printResult.value = tampungNilai;
+      hasilAkhir = eval(tampungNilai);
+      printResult.value = hasilAkhir;
     }
   }
-
   // console.log(inputNum);
 }
 
