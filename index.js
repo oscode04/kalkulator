@@ -15,9 +15,12 @@ function addNumber(input) {
       tampungNilai = tampungNilai.substring(0, tampungNilai.length - 1);
       printResult.value = tampungNilai;
 
+      // console.log(`ini dari tampungNilai ${tampungNilai}`);
+
       // ini untuk hitung
       numPrint = numPrint.substring(0, numPrint.length - 1);
       printResult.value = numPrint;
+      // console.log(`ini dari numprint ${numPrint}`);
     } else if (pushed == "c") {
       printResult.value = "";
       tampungNilai = "";
@@ -33,11 +36,15 @@ function addNumber(input) {
       }
       numPrint = printResult.value + input;
       printResult.value = numPrint;
-      console.log(tampungNilai);
+      console.log(`ini dari tampung nilai bawah ${tampungNilai}`);
     }
   } else {
-    tampungNilai = eval(inputNum);
-    printResult.value = tampungNilai;
+    if (isNaN(tampungNilai.charAt(tampungNilai.length - 1))) {
+      alert("Input terakhir harus angka!!!");
+    } else {
+      tampungNilai = eval(tampungNilai);
+      printResult.value = tampungNilai;
+    }
   }
 
   // console.log(inputNum);
