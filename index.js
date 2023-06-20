@@ -37,7 +37,7 @@ function addNumber(input) {
       }
       numPrint = printResult.value + input;
       printResult.value = numPrint;
-      console.log(`ini dari tampung nilai bawah ${tampungNilai}`);
+      // console.log(`ini dari tampung nilai bawah ${tampungNilai}`);
     }
   } else {
     if (isNaN(tampungNilai.charAt(tampungNilai.length - 1))) {
